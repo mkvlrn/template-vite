@@ -2,6 +2,7 @@
   "name": "template-vite",
   "description": "A template for vite projects",
   "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "author": "Mike Valeriano <mkvlrn@gmail.com>",
