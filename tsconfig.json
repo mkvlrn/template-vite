@@ -15,7 +15,7 @@
     "moduleResolution": "NodeNext",
     "noEmit": true,
     "outDir": "dist",
-    "paths": { "#/*": ["./src/*"] },
+    "paths": { "~/*": ["./src/*"], "public/*": ["./public/*"] },
     "preserveSymlinks": true,
     "removeComments": true,
     "resolveJsonModule": true,

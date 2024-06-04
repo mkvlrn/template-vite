@@ -1,4 +1,4 @@
-import logo from '#/assets/react.svg';
+import logo from 'public/react.svg';
 
 export function Logo() {
   return (
