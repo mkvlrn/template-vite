@@ -4,9 +4,17 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
-  root: 'src',
-  publicDir: '../public',
-  build: { outDir: '../dist', emptyOutDir: true },
-  server: { port: 3000 },
-  envDir: '../',
+  test: {
+    coverage: {
+      reportsDirectory: 'coverage',
+      reporter: ['lcov', 'html', 'text'],
+      all: true,
+      include: ['src'],
+      exclude: ['**/*.{test,spec}.?(c|m)[jt]s?(x)', '**/*.d.ts', 'src/index.ts?(x)'],
+    },
+    env: { NODE_ENV: 'test' },
+    environment: 'jsdom',
+    passWithNoTests: true,
+    setupFiles: ['./vitest.setup.ts'],
+  },
 });
