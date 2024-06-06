@@ -21,6 +21,7 @@
     "prepare": "husky",
     "dev": "vite",
     "lint": "eslint src --fix",
+    "lint-staged": "lint-staged",
     "format": "prettier --write src",
     "type-check": "tsc --noEmit",
     "build": "rimraf dist && NODE_ENV=production vite build",
