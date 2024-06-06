@@ -34,4 +34,4 @@ jobs:
           -Dsonar.exclusions=*.spec.ts,*.spec.tsx
           -Dsotar.tests=./src
           -Dsonar.test.inclusions=**/*.spec.ts,**/*.spec.tsx
-          -Dsonar.coverage.exclusions=**/*.spec.ts,**/*.spec.tsx,**/index.ts,**/index.tsx
+          -Dsonar.coverage.exclusions=**/*.spec.ts,**/*.spec.tsx,**/index.ts,**/index.tsx,src/main.tsx

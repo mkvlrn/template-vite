@@ -10,7 +10,7 @@ export default defineConfig({
       reporter: ['lcov', 'html', 'text'],
       all: true,
       include: ['src'],
-      exclude: ['**/*.{test,spec}.?(c|m)[jt]s?(x)', '**/*.d.ts', 'src/index.ts?(x)'],
+      exclude: ['**/*.{test,spec}.?(c|m)[jt]s?(x)', '**/*.d.ts', 'src/main.ts?(x)'],
     },
     env: { NODE_ENV: 'test' },
     environment: 'jsdom',
