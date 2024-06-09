@@ -1,6 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/swcrc",
-  "module": { "type": "nodenext", "resolveFully": true, "strict": true, "strictMode": true },
+  "module": {
+    "type": "nodenext",
+    "resolveFully": true,
+    "strict": true,
+    "strictMode": true
+  },
   "jsc": {
     "experimental": {
       "keepImportAssertions": true,
@@ -26,7 +31,7 @@
     },
     "minify": { "compress": false, "mangle": false },
     "baseUrl": ".",
-    "paths": { "~/*": ["./src/*"], "public/*": ["./public/*"] }
+    "paths": { "~/*": ["./src/*"] }
   },
   "isModule": true
 }
