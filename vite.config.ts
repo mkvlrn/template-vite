@@ -5,6 +5,7 @@ import { defineConfig as defineTestConfig } from 'vitest/config';
 
 const baseConfig = defineConfig({
   plugins: [react(), tsconfigPaths()],
+  server: { port: 3000 },
 });
 
 const testConfig = defineTestConfig({
