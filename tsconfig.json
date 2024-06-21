@@ -31,12 +31,5 @@
 
   "exclude": ["node_modules"],
 
-  "include": [
-    "./src/**/*.*",
-    "./tests/**/*.*",
-    "*.d.ts",
-    "**/*.d.ts",
-    "*.js",
-    "*.ts"
-  ]
+  "include": ["./src/**/*.*", "./tests/**/*.*", "*.d.ts", "**/*.d.ts", "*.js", "*.ts"]
 }
