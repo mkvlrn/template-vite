@@ -1,1 +1,1 @@
-export { default } from '@mkvlrn/eslint-config/vite.js';
+export { default } from '@mkvlrn/eslint-config';
