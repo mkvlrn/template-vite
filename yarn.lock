@@ -668,10 +668,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@mkvlrn/eslint-config@^24.6.21":
-  version "24.6.21"
-  resolved "https://registry.yarnpkg.com/@mkvlrn/eslint-config/-/eslint-config-24.6.21.tgz#11e216bf38ac0abbf2699673f6a77cb8f64b05db"
-  integrity sha512-DGUZVtJgKdD5On3wAYWQV8qhkzLeHo1t4xM7mbe2SFLFuDHzKKEcN+qp6cB2qBkSf53NDq+1feIGYDDLQZ+v6A==
+"@mkvlrn/eslint-config@^24.6.22":
+  version "24.6.22"
+  resolved "https://registry.yarnpkg.com/@mkvlrn/eslint-config/-/eslint-config-24.6.22.tgz#d465f5e583761fc021d8d64724c1580a857b1f9c"
+  integrity sha512-61u5CU6Zhz8MZAGuC9bqGk/wtmZobTzJ76vXdSL7rNSxPn0IaPM8DvMY4ArBDGolkHe7qKJL37RNVlT2r5VSKg==
   dependencies:
     "@eslint/js" "^9.5.0"
     "@next/eslint-plugin-next" "^14.2.4"
@@ -996,10 +996,10 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/node@^20.14.7":
-  version "20.14.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.7.tgz#342cada27f97509eb8eb2dbc003edf21ce8ab5a8"
-  integrity sha512-uTr2m2IbJJucF3KUxgnGOZvYbN0QgkGyWxG6973HCpMYFy2KfcgYuIwkJQMQkt1VbBMlvWRbpshFTLxnxCZjKQ==
+"@types/node@^20.14.8":
+  version "20.14.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.8.tgz#45c26a2a5de26c3534a9504530ddb3b27ce031ac"
+  integrity sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==
   dependencies:
     undici-types "~5.26.4"
 
