@@ -33,7 +33,7 @@
     "@mkvlrn/eslint-config": "^24.7.2",
     "@mkvlrn/prettier-config": "^24.6.7",
     "@swc/plugin-transform-imports": "^2.0.9",
-    "@testing-library/dom": "^10.3.1",
+    "@testing-library/dom": "^10.3.2",
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
     "@types/node": "^20.14.10",
