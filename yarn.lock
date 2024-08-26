@@ -546,10 +546,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@mkvlrn/eslint-config@^24.8.8":
-  version "24.8.8"
-  resolved "https://registry.yarnpkg.com/@mkvlrn/eslint-config/-/eslint-config-24.8.8.tgz#f365c1ba97e0ebe5ce113bf02a14385cca153553"
-  integrity sha512-A4IbWPMtD4y1cWqSRaT6TtDJWG/tYtgxWGKKr/8QrFI17QTwVSNWdup+2F46LQXHItqf7Nn6/J0UpPGUHPzA2g==
+"@mkvlrn/eslint-config@^24.8.9":
+  version "24.8.9"
+  resolved "https://registry.yarnpkg.com/@mkvlrn/eslint-config/-/eslint-config-24.8.9.tgz#f87647e597a9c8045f73d6cd4b867fdcbed5c40f"
+  integrity sha512-HaEeuGXIqkNgvdIdZeZioBNfZ+Bncyfg5tzCxDHsUmZU97qTgtLwYWhu4SSrIUa6J5dYEDr/AUBT7snw2XvUgw==
   dependencies:
     "@eslint/js" "^9.9.1"
     "@next/eslint-plugin-next" "^14.2.6"
