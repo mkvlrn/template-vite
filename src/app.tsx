@@ -1,6 +1,6 @@
-import { Logo } from "~/components/logo.tsx";
-import { Tagline } from "~/components/tagline.tsx";
-import { Title } from "~/components/title.tsx";
+import { Logo } from "~/components/logo.jsx";
+import { Tagline } from "~/components/tagline.jsx";
+import { Title } from "~/components/title.jsx";
 
 export function App() {
   return (

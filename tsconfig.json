@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
@@ -27,9 +26,5 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext"
-  },
-
-  "exclude": ["node_modules"],
-
-  "include": ["./src/**/*.*", "./tests/**/*.*", "*.d.ts", "**/*.d.ts", "*.js", "*.ts"]
+  }
 }
