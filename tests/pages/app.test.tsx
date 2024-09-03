@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { expect, test } from "vitest";
-import { App } from "~/app.jsx";
+import { App } from "~/pages/app.jsx";
 
 test("it works", () => {
   render(<App />);

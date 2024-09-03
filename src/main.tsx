@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { App } from "~/app.jsx";
 import "~/global.css";
+import { App } from "~/pages/app.jsx";
 
-const rootElement = document.querySelector("#root");
-if (!rootElement) throw new Error("Root element not found");
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+const rootElement = document.querySelector("#root")!;
 const root = createRoot(rootElement);
 
 root.render(

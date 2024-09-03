@@ -1,30 +1,8 @@
 {
+  "extends": "@mkvlrn/tsconfig/tsconfig.vite.json",
   "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "declaration": false,
-    "emitDecoratorMetadata": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "lib": ["Dom", "DOM.Iterable", "ESNext", "ESNext.Decorators"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "noEmit": true,
-    "outDir": "dist",
-    "paths": {
-      "~/*": ["./src/*"],
-      "#/*": ["./tests/*"],
-      "public/*": ["./public/*"]
-    },
-    "preserveSymlinks": true,
-    "removeComments": true,
-    "resolveJsonModule": true,
-    "rootDir": ".",
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "esnext"
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": { "~/*": ["./src/*"], "#/*": ["./tests/*"] }
   }
 }
