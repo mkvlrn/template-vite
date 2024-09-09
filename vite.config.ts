@@ -5,21 +5,25 @@ import { defineConfig as defineTestConfig } from "vitest/config";
 import { compilerOptions } from "./tsconfig.json";
 
 const { outDir } = compilerOptions;
+const { PORT = "3000" } = process.env;
 
 const baseConfig = defineConfig({
   plugins: [react.default(), tsconfigPaths()],
-  server: { port: 3000 },
+  server: { port: Number(PORT) },
   build: {
     outDir,
+    emptyOutDir: true,
   },
 });
 
 const testConfig = defineTestConfig({
   test: {
     coverage: {
+      all: true,
+      clean: true,
+      cleanOnRerun: true,
       reportsDirectory: "coverage",
       reporter: ["lcov", "html", "text"],
-      all: true,
       include: ["src"],
     },
     env: { NODE_ENV: "test" },
