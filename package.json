@@ -1,6 +1,6 @@
 {
   "name": "template-vite",
-  "description": "A template for vite projects",
+  "description": "A template for react projects built with vite",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -21,18 +21,14 @@
     "prepare": "husky",
     "dev": "vite",
     "lint": "eslint --fix src tests",
-    "lint-staged": "lint-staged",
     "format": "prettier --write src tests",
-    "type-check": "tsc --noEmit",
     "build": "NODE_ENV=production vite build",
     "start": "vite preview"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "@mkvlrn/eslint": "^0.1.6",
-    "@mkvlrn/prettier": "^0.0.5",
-    "@mkvlrn/tsconfig": "^0.1.0",
+    "@mkvlrn/configurations": "^1.0.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",

@@ -29,7 +29,7 @@ const testConfig = defineTestConfig({
     env: { NODE_ENV: "test" },
     environment: "jsdom",
     passWithNoTests: true,
-    setupFiles: ["./vitest.setup.ts"],
+    setupFiles: ["./tests/__setup/vitest.setup.ts"],
   },
 });
 
